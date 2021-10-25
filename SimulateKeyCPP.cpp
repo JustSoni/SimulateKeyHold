@@ -11,11 +11,11 @@ int main()
 	while (true){
 
 		if (GetAsyncKeyState(VK_NUMPAD0)) {
-			key = 0;
+			key = 0;	//Press 0 on the numpad to stop the program. 
 		}
 
 		if (GetAsyncKeyState(VK_NUMPAD1)) {
-			key = 1;
+			key = 1;	//Press 1 on the numpad to start the program.
 		}
 
 		if (key == 1) {
